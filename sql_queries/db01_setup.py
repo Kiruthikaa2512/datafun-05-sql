@@ -38,9 +38,10 @@ def main() -> None:
     logger.info("Starting database setup...")
     
     # Define path variables
-    ROOT_DIR = pathlib.Path(__file__).parent.resolve()
-    SQL_CREATE_FOLDER = ROOT_DIR.joinpath("sql_create")
-    DATA_FOLDER = ROOT_DIR.joinpath("data")
+    ROOT_DIR = pathlib.Path(__file__).parent.parent.resolve()  # go one level up
+    SQL_CREATE_FOLDER = ROOT_DIR / "sql_create"
+    DATA_FOLDER = ROOT_DIR / "data"
+
     DB_PATH = DATA_FOLDER.joinpath('db.sqlite')
 
     # Ensure the data folder where we will put the db exists
