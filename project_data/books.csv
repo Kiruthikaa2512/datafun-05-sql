@@ -1,0 +1,11 @@
+book_id,title,genre,publication_year,author_id
+BOOK_001,Harry Potter and the Sorcerer's Stone,Fantasy,1997,AUTHOR_001
+BOOK_002,Harry Potter and the Chamber of Secrets,Fantasy,1998,AUTHOR_001
+BOOK_003,1984,Dystopian,1949,AUTHOR_002
+BOOK_004,Animal Farm,Political Satire,1945,AUTHOR_002
+BOOK_005,To Kill a Mockingbird,Fiction,1960,AUTHOR_003
+BOOK_006,The Great Gatsby,Fiction,1925,AUTHOR_004
+BOOK_007,Brave New World,Science Fiction,1932,AUTHOR_005
+BOOK_008,The Catcher in the Rye,Fiction,1951,AUTHOR_006
+BOOK_009,Fahrenheit 451,Science Fiction,1953,AUTHOR_007
+BOOK_010,Pride and Prejudice,Romance,1813,AUTHOR_008
