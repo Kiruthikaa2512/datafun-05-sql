@@ -76,3 +76,12 @@
 2025-06-03 22:18:16.918 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql
 2025-06-03 22:18:16.918 | INFO     | __main__:main:68 - Database setup completed successfully.
 2025-06-03 22:18:16.918 | INFO     | __main__:main:73 - Database connection closed.
+2025-06-03 22:33:10.604 | INFO     | utils_logger:<module>:46 - Logging to file: logs\project_log.log
+2025-06-03 22:33:10.604 | INFO     | __main__:main:38 - Starting database setup...
+2025-06-03 22:33:10.604 | INFO     | __main__:main:54 - Connected to database: C:\Projects\Repos\datafun-05-sql\data\project.sqlite3
+2025-06-03 22:33:10.672 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\01_project_drop_tables.sql
+2025-06-03 22:33:10.691 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\02_project_create_tables.sql
+2025-06-03 22:33:10.692 | INFO     | __main__:main:65 - Tables in DB after creation: [('issues',), ('analysis',)]
+2025-06-03 22:33:10.706 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Projects\Repos\datafun-05-sql\sql_create\03_project_insert_records.sql
+2025-06-03 22:33:10.706 | INFO     | __main__:main:68 - Database setup completed successfully.
+2025-06-03 22:33:10.706 | INFO     | __main__:main:73 - Database connection closed.
